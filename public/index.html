@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#171126" />
+  <title>Варіанти — Halloween Edition</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="glow glow-one"></div><div class="glow glow-two"></div>
+  <header class="topbar">
+    <div class="brand"><span class="brand-icon">✦</span><div><strong>ВАРІАНТИ</strong><small>HALLOWEEN EDITION</small></div></div>
+    <div id="connection" class="connection"><span></span> Підключення...</div>
+  </header>
+  <main id="app" class="shell"><section class="panel center"><div class="spinner"></div><p>Завантажуємо гру…</p></section></main>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
